@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         // connected and disconnected.
         filter.addAction(Intent.ACTION_POWER_DISCONNECTED);
         filter.addAction(Intent.ACTION_POWER_CONNECTED);
+        filter.addAction(Intent.ACTION_HEADSET_PLUG);
+
 
         // Register the receiver using the activity context, passing in the
         // IntentFilter.
